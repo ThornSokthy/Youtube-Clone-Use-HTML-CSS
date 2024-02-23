@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nestet Layout</title>
+  <style>
+    /* IG Layout */
+    .profile {
+      width: 400px;
+      margin-inline: auto;
+      margin-top: 14px;
+    }
+    .profile-picture {
+      width: 50px;
+      display: inline-block;
+    }
+    .profile-picture img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .profile-info {
+      display: inline-block;
+      margin-left: 10px;
+    }
+    .profile-info .name {
+      font-size: 17px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .profile-info .detail {
+      color: rgb(162, 161, 161);
+      width: 100px;
+      margin: 0;
+    }
+    .profile button {
+      border: none;
+      color: white;
+      margin-top: 14px;
+      vertical-align: top;
+      background-color: rgb(83, 138, 226);
+      padding: 8px 12px;
+      border-radius: 5px;
+      margin-left: 140px;
+      font-weight: 600;
+    }
+    /* YouTube Layout */
+    .youtube-container {
+      margin-top: 100px;
+    }
+    .video-previwe {
+      width: 470px;
+      margin-inline: auto;
+      margin-top: 8px;
+    }
+    .thumbnail {
+      width: 200px;
+      display: inline-block;
+    }
+    .thumbnail img {
+      width: 100%;
+    }
+    .video-info {
+      width: 250px;
+      vertical-align: top;
+      margin-left: 5px;
+      display: inline-block;
+    }
+    .video-info p {
+      margin: 0;
+    }
+    .video-info .video-title {
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 1.4;
+    }
+    .video-info .video-author {
+      font-size: 14px;
+      color: gray;
+      margin-top: 10px;
+    }
+    .video-info .video-stats {
+      font-size: 14px;
+      margin-top: 5px;
+      color: gray;
+    }
+  </style>
+</head>
+<body style="font-family: Verdana;">
+  <!-- IG Layout -->
+  <div class="ig-container">
+    <div class="profile">
+      <div class="profile-picture">
+        <img src="../channel-1.jpeg" alt="">
+      </div>
+      <div class="profile-info">
+        <p class="name">oliver</p>
+        <p class="detail">Sleepy Cat Popular</p>
+      </div>
+      <button>Follow</button>
+    </div>
+    <div class="profile">
+      <div class="profile-picture">
+        <img src="../channel-1.jpeg" alt="">
+      </div>
+      <div class="profile-info">
+        <p class="name">oliver</p>
+        <p class="detail">Sleepy Cat Popular</p>
+      </div>
+      <button>Follow</button>
+    </div>
+    <div class="profile">
+      <div class="profile-picture">
+        <img src="../channel-1.jpeg" alt="">
+      </div>
+      <div class="profile-info">
+        <p class="name">oliver</p>
+        <p class="detail">Sleepy Cat Popular</p>
+      </div>
+      <button>Follow</button>
+    </div>
+  </div>
+  <!-- YouTube Layout -->
+  <div class="youtube-container">
+    <div class="video-previwe">
+      <div class="thumbnail">
+        <img src="../thumbnails/thumbnail-2.webp" alt="">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          How to compete against 
+          CS degrees (as a self-taught dev)
+        </p>
+        <p class="video-author">
+          SuperSimpleDev
+        </p>
+        <p class="video-stats">
+          1.5K views &#183 4 months ago
+        </p>
+      </div>
+    </div>
+    <div class="video-previwe">
+      <div class="thumbnail">
+        <img src="../thumbnails/thumbnail-2.webp" alt="">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          How to compete against 
+          CS degrees (as a self-taught dev)
+        </p>
+        <p class="video-author">
+          SuperSimpleDev
+        </p>
+        <p class="video-stats">
+          1.5K views &#183 4 months ago
+        </p>
+      </div>
+    </div>
+    <div class="video-previwe">
+      <div class="thumbnail">
+        <img src="../thumbnails/thumbnail-2.webp" alt="">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          How to compete against 
+          CS degrees (as a self-taught dev)
+        </p>
+        <p class="video-author">
+          SuperSimpleDev
+        </p>
+        <p class="video-stats">
+          1.5K views &#183 4 months ago
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

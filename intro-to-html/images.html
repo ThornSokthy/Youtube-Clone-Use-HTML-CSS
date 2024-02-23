@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image</title>
+    <style>
+      /* Image 1 */
+      .image-1 {
+        width: 200px;
+        border-radius: 10px;
+      }
+      /* Image 2 */
+      .image-2 {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        object-position: left;
+      }
+      /* Image 3 */
+      .image-3 {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: left;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5em;
+    "
+  >
+    <!-- Image 3 -->
+    <img class="image-3" src="../thumbnails/thumbnail-2.webp" />
+    <!-- Image 2 -->
+    <img class="image-2" src="../thumbnails/thumbnail-2.webp" />
+    <!-- Image 1 -->
+    <img class="image-1" src="../thumbnails/thumbnail-2.webp" />
+  </body>
+</html>

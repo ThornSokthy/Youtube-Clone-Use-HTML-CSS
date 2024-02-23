@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button exercises</title>
+  </head>
+  <style>
+    /* Pagination */
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 30px;
+    }
+    .pagination {
+      margin: 10px auto;
+    }
+    .pagination button {
+      padding: 10px 6px;
+      margin: 0 10px;
+      border: 1.5px solid green;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .pagination a {
+      margin: 5px;
+    }
+    /* Stretch */
+    .stretch button {
+      background-color: rgb(13, 161, 13);
+      color: #fff;
+      border: none;
+      font-size: 1.1rem;
+      padding: 5px 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .stretch button:hover {
+      background-color: rgb(0, 151, 0);
+      font-size: 1.1rem;
+      padding: 20px 30px;
+    }
+    /* 3D Click */
+    .three-d button {
+      padding: 5px 10px;
+      border: none;
+      background-color: rgb(0, 151, 0);
+      font-size: 1.1rem;
+      color: #fff;
+      transition: all 0.15s;
+    }
+    .three-d button:hover {
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    /* Three Button */
+    .three-btn button {
+      margin: 0 4px;
+      padding: 5px 10px;
+      background-color: rgb(13, 161, 13);
+      color: #fff;
+      border: none;
+    }
+    .three-btn .btn1:hover,
+    .three-btn .btn2:hover,
+    .three-btn .btn3:hover {
+      padding: 5px 15px;
+      margin: 0;
+    }
+  </style>
+  <body>
+    <!-- Pagination -->
+    <div class="pagination">
+      <button>Back</button>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <button>Next</button>
+    </div>
+    <!-- Stretch -->
+    <div class="stretch">
+      <button>Stretch</button>
+    </div>
+    <!-- 3D Click -->
+    <div class="three-d">
+      <button>Shadow</button>
+    </div>
+    <!-- Three Button -->
+    <div class="three-btn">
+      <button class="btn1">one</button>
+      <button class="btn2">two</button>
+      <button class="btn3">three</button>
+    </div>
+  </body>
+</html>

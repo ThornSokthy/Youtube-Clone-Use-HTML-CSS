@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+      }
+      .container .header {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-inline: 8%;
+        justify-content: space-between;
+      }
+      .left-section {
+        display: flex;
+        align-items: center;
+      }
+      .left-section img {
+        height: 35px;
+        margin-right: 8px;
+        border-radius: 50%;
+      }
+      .user-name {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .add-btn {
+        border: none;
+        padding: 8px;
+        color: white;
+        background-color: rgb(41, 97, 209);
+        font-weight: 600;
+        border-radius: 5px;
+      }
+      .message-btn {
+        border: none;
+        padding: 8px;
+        font-weight: 600;
+        color: black;
+        background-color: rgb(179, 179, 180);
+        border-radius: 5px;
+      }
+      .sidebar {
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+        width: 230px;
+      }
+
+      .sidebar {
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        align-items: flex-start;
+      }
+      .channel {
+        display: flex;
+        padding-top: 15px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        row-gap: 6px;
+        background-color: rgb(49, 46, 46);
+        height: 100vh;
+      }
+      .channel img {
+        width: 45px;
+        border-radius: 50%;
+      }
+
+      .info {
+        background-color: rgb(74, 72, 72);
+        height: 100vh;
+        padding: 15px;
+        color: rgb(188, 187, 187);
+        line-height: 2;
+      }
+      .top-info {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <div class="container">
+      <div class="header">
+        <div class="left-section">
+          <img src="../channel-picture/channel-3.jpeg" />
+          <p class="user-name">Oliver Cat</p>
+        </div>
+        <div class="right-section">
+          <button class="add-btn">Add Friend</button>
+          <button class="message-btn">Message</button>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="channel">
+          <img src="../channel-picture/channel-2.jpeg" alt="" />
+          <img src="../channel-picture/channel-2.jpeg" alt="" />
+          <img src="../channel-picture/channel-2.jpeg" alt="" />
+        </div>
+
+        <div class="info">
+          <div class="top-info">
+            <p class="info-title">INFO</p>
+            <p class="plus">+</p>
+          </div>
+          <p># new-videos</p>
+          <p># updates</p>
+          <p># faq</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

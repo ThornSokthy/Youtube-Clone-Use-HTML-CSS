@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      /* Sign Up */
+      .sign-up input {
+        padding: 8px 12px;
+        border: 1px solid rgb(205, 204, 204);
+        font-weight: 600;
+        border-radius: 7px;
+        font-size: 14px;
+      }
+      .first-name {
+        width: 120px;
+      }
+      .email {
+        display: block;
+        margin: 10px 0;
+        width: 270px;
+      }
+      .sign-up button {
+        border: none;
+        color: white;
+        background-color: rgb(41, 93, 250);
+        font-weight: 600;
+        padding: 8px 123px;
+        border-radius: 5px;
+      }
+      /* Request Form */
+      .request p {
+        font-size: 30px;
+        margin-bottom: 22px;
+        font-weight: 600;
+      }
+      .location,
+      .description {
+        display: block;
+        border: none;
+        background-color: rgba(220, 216, 216, 0.403);
+        padding: 8px 15px;
+        border-radius: 4px;
+        width: 280px;
+        margin-bottom: 5px;
+      }
+      .req-btn {
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px 16px;
+      }
+      .sche-btn {
+        margin-top: 25px;
+        border: none;
+        padding: 10px 16px;
+        color: black;
+        font-weight: 600;
+        background-color: rgba(220, 216, 216, 0.403);
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body style="font-family: sans-serif">
+    <!-- Sign Up -->
+    <form class="sign-up">
+      <input type="text" placeholder="First name" class="first-name" />
+      <input type="text" placeholder="First name" class="first-name" />
+      <input type="text" class="email" placeholder="Email" />
+      <button>Sign Up</button>
+    </form>
+    <br /><br /><br /><br />
+    <!-- Request Form -->
+    <form class="request">
+      <p>Request a ride now</p>
+      <input type="text" placeholder="Enter pickup location" class="location" />
+      <input type="text" placeholder="Enter description" class="description" />
+      <button class="req-btn">Request now</button>
+      <button class="sche-btn">Schedule for later</button>
+    </form>
+  </body>
+</html>

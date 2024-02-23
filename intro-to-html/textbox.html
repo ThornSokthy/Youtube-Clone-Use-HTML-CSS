@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Textbox</title>
+    <style>
+      /* Textbox 1 */
+      .textbox-1 {
+        font-size: 16px;
+        border: 1px solid rgba(186, 185, 185, 0.732);
+        outline: none;
+        width: 150px;
+        border-radius: 4px;
+        padding: 8px 10px;
+      }
+      /* Textbox 2 */
+      .textbox-2 {
+        font-size: 14px;
+        border: 1px solid rgba(186, 185, 185, 0.732);
+        outline: none;
+        width: 90%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        padding: 9px 12px;
+      }
+      /* Linkedin Signup */
+      .linkedin-signup {
+        padding: 5px;
+        margin-bottom: 50px;
+      }
+      .linkedin-signup p {
+        margin: 0;
+      }
+      .linkedin-signup .email {
+        font-size: 14px;
+        color: rgb(109, 108, 108);
+        margin-bottom: 5px;
+      }
+      .linkedin-signup input {
+        border: 2px solid gray;
+        border-radius: 4px;
+        padding: 4px;
+        width: 79.9%;
+        margin-bottom: 15px;
+      }
+      .linkedin-signup .policy {
+        font-size: 14px;
+        color: rgb(109, 108, 108);
+        margin-bottom: 15px;
+      }
+      .linkedin-signup button {
+        background-color: rgb(33, 131, 205);
+        border: none;
+        font-size: 16px;
+        color: white;
+        padding: 10px 130px;
+        cursor: pointer;
+        border-radius: 25px;
+        margin-bottom: 50px;
+      }
+      /* Twitter Textbox */
+      .twitter-textbox img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: left;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+      .twitter-textbox span {
+        margin-left: 5px;
+        font-size: 15px;
+        color: gray;
+        margin-right: 140px;
+      }
+      .twitter-textbox button {
+        border: none;
+        color: white;
+        background-color: rgb(67, 170, 204);
+        font-weight: 600;
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <!-- Textbox 1 -->
+    <input class="textbox-1" type="text" placeholder="Search" /><br /><br />
+    <!-- Textbox 2 -->
+    <input
+      class="textbox-2"
+      type="text"
+      placeholder="Search Google or type a URL"
+    /><br /><br /><br />
+    <!-- LinkedIn signup -->
+    <div class="linkedin-signup">
+      <p class="email">Email</p>
+      <input type="text" />
+      <p class="policy">
+        By clicking Agree & Join, you agree to the Privacy Policy.
+      </p>
+      <button>Agree & Join</button>
+    </div>
+    <!-- Twitter Text Box -->
+    <div class="twitter-textbox">
+      <img src="../thumbnails/thumbnail-2.webp" />
+      <span>What's happening?</span>
+      <button>Tweet</button>
+    </div>
+  </body>
+</html>
